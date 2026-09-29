@@ -1,0 +1,14 @@
+name:"Hello Github Actions"
+description: "This is Github Actions"
+authot:"intikhab Hussain"
+
+on:
+  workflow_dispatch
+
+jobs:
+  Hello:
+    runs_on:ubantu-latest
+    
+    steps:
+      -name: "say Hello"
+      run: echo "Hello From GitHub Actions"
