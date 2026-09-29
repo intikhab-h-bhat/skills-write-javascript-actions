@@ -6,7 +6,7 @@ on:
 
 jobs:
   Hello:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: "say Hello"
