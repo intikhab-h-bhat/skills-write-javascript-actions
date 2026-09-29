@@ -1,14 +1,14 @@
-name:"Hello Github Actions"
+name: "Hello Github Actions"
 description: "This is Github Actions"
-authot:"intikhab Hussain"
+author: "intikhab Hussain"
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   Hello:
-    runs_on:ubantu-latest
+    runs-on: ubantu-latest
     
     steps:
-      -name: "say Hello"
-      run: echo "Hello From GitHub Actions"
+      - name: "say Hello"
+        run: echo "Hello From GitHub Actions"
