@@ -1,6 +1,5 @@
 name: "Hello Github Actions"
 description: "This is Github Actions"
-author: "intikhab Hussain"
 
 on:
   workflow_dispatch:
